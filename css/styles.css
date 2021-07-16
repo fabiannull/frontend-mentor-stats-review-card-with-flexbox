@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--main_background);
     font-size: 15px;
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Inter', sans-serif;
