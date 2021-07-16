@@ -197,6 +197,7 @@ h2, h1 {
         background-color: var(--accent);
         object-fit: cover;
         overflow: hidden;
+        width: 50%;
     }
       
     .container-picture img {        
