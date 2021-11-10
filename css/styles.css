@@ -38,24 +38,27 @@ h2, h1 {
 
 @media only screen and (max-width: 1100px) {
     
+    
+    
+
     .container-picture {
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10%;  
-              
-    }
-
-    .container-picture {    
+        margin-top: 10%;
         background-color: var(--accent);
         object-fit: cover;
-        overflow: hidden;
+        overflow: hidden;  
+        max-width: 375px;
     }
+
+   
     
     .container-picture img {
         display: block;
         mix-blend-mode: multiply;
-        opacity: 0.7;  
+        opacity: 0.7; 
+        max-width: 375px; 
     }
 
     h1 {
@@ -76,6 +79,7 @@ h2, h1 {
         font-family: 'Lexend Deca', sans-serif;
         margin-bottom: 4%;
         border-radius: 0 0 10px 10px;
+        max-width: 375px;
     }
 
     .upper-content p {
