@@ -37,10 +37,6 @@ h2, h1 {
 }
 
 @media only screen and (max-width: 1100px) {
-    
-    
-    
-
     .container-picture {
         width: 90vw;
         margin-left: auto;
@@ -51,8 +47,6 @@ h2, h1 {
         overflow: hidden;  
         max-width: 375px;
     }
-
-   
     
     .container-picture img {
         display: block;
@@ -110,59 +104,43 @@ h2, h1 {
     .container-picture, img {
         border-radius: 10px 10px 0 0;
     }
-
-    
     
     footer {
         display: flex;
-        width: 100%;
-        
+        width: 100%;        
         align-items: center;
         flex-direction: column;
         padding-bottom: 5%;
-
     }
 
     footer a, footer span {
         color: var(--main_paragraph);
         font-family: 'Lexend Deca', sans-serif;
-        display: block;
-        
-        
+        display: block;        
     }
 
     .link-to-my-site {
         text-align: center;
-        
-        
-        
     }
     
     a:link {
         color: var(--main_paragraph);
-        
     }
     
     
     a:visited {
         color: var(--main_paragraph);
-        
     }
     
     
     a:hover {
         color: var(--main_paragraph);
-        
     }
     
     
     a:active {
         color: var(--main_paragraph);
-        
     }
-
-    
-    
 }
 
 @media only screen and (min-width: 1101px) {
@@ -175,8 +153,7 @@ h2, h1 {
         top: 50%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%); 
-        
+        transform: translate(-50%, -50%);
     }
         
     img {
@@ -260,12 +237,11 @@ h2, h1 {
 
     footer {
         position: fixed;
-        bottom: 0;
+        bottom: 5px;
         width: 100vw;
         display: flex;
         justify-content: center;
         transition: 0.7s ease-in-out;
-        
     }
 
     footer a, footer span {
@@ -275,34 +251,25 @@ h2, h1 {
 
     .link-to-my-site {
         margin-left: 10px;
-        
-        
     }
     
     a:link {
         color: var(--main_paragraph);
-        
     }
-    
     
     a:visited {
         color: var(--main_paragraph);
-        
     }
-    
     
     a:hover {
         color: var(--main_paragraph);
-        
     }
-    
     
     a:active {
         color: var(--main_paragraph);
-        
     }
 
     footer:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
